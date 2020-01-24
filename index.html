@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Diana's Hair & Beauty Salon is located in Doncaster, South Yorkshire. The salon provides numerous hair services followed by latest trends such as fringe design, partial highlight, full highlight, double process, ombre and more including treatments & rituals. They also offer luxurious wedding hair services by using premium quality hair care products.">
+    <meta name="keywords" content="Hairdressing, Colouring And Styling, Hair Extensions, Blow Drys, Cut And Colour Offer For New Clients, Mens Hair Cuts, Beards, Wet Shaves, Men's Styling Products, Men's Haircut, Beard Trimming, Haircuts, Professional And Kind Hair Stylists, Hair, Dressers, Hair Services, Beauty Therapist, Wedding Hair, Wedding Makeup, Cuts, Styling, Colouring, Hair Salon, Unisex, Cut And Finish, Cut And Blow, Cuts, Styling, Beauty Salon, Hairdresser, Hair And Beauty Salon, Hairdressers, Salon, Barbershop Doncaster, Cuts, Colours">
+    <title>Diana's Hair & Beauty Salon</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Capriola&display=swap" rel="stylesheet">
+    <link href="img/favicon.png" rel="icon" type="image/png">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+    <header>
+        <div class="logo"><img src="img/logo.png" alt="Website Logo" title="Logo"></div>
+        <nav>
+            <ul>
+                <li><a class="nav-current" href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="contact-us.html">Contacts</a></li>
+            </ul>
+            <div class="mobile-wrap">
+                <div class="nav-wrap">
+                  <a href="index.html" class="active">Логотип</a>
+                  <div id="navLinks">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="staff.html">Staff</a>
+                    <a href="prices.html">Prices</a>
+                    <a href="contact-us.html">Contacts</a>
+                </div>
+                  <a href="#" class="icon" onclick="barFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </div>
+                <script>
+                function barFunction() {
+                    var x = document.getElementById("navLinks");
+                    if (x.style.display === "block") {
+                    x.style.display = "none";
+                    } else {
+                    x.style.display = "block";
+                    }
+                  }
+                </script>
+        </nav>
+    </header>
+    <main>
+        <div class="container-main">
+            <div class="slider-container">
+            <div class="slider">
+                <input type="radio" name="slide" checked>
+                <h1>Your Beauty Starts Here</h1>
+              
+                <input type="radio" name="slide">
+                <h1>We Serve You for<br>All Your Beauty Needs</h1>
+              
+                <input type="radio" name="slide">
+                <h1>It’s Time to Relax and<br>Take Care of Yourself</h1>
+              
+              </div>
+              </div>
+        <div class="square-blocks">
+            <div class="block1"><a href="#">Women's Hairdessing</a></div>
+            <div class="block2"><a href="#">Men's Hairdessing</a></div>
+            <div class="block3"><a href="#">Argan Treatment</a></div>
+        </div>
+        <div class="motto">
+            <p>We are the Beauty Salon based in Doncaster<br>
+                We Want to Make Your Life Beautiful
+            </p>
+        </div>
+        <div class="service-blocks">
+                <div class="service-level1">
+                <div class="block4"><a href="#">Skin Therapy</a></div>
+                <div class="block5-2"></div>
+                <div class="block6"><a href="#">Massage</a></div>
+                </div>
+                <div class="service-level2">
+                <div class="block4-2"></div>
+                <div class="block5"><a href="#">Spa Rest</a></div>
+                <div class="block6-2"></div>
+                </div>
+        </div>
+        </div>
+    </div>
+    </main>
+        <footer>
+            <div class="footer-menu">
+                <ul>
+                    <li><a class="footer-current" href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="staff.html">Staff</a></li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="contact-us.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="socialmedias">
+                <div class="fb-page" data-href="https://www.facebook.com/Dianas-HairBeauty-Salon-352274815485394/" data-tabs="" data-width="500px" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Dianas-HairBeauty-Salon-352274815485394/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Dianas-HairBeauty-Salon-352274815485394/">Diana&#039;s Hair&amp;Beauty Salon</a></blockquote></div>
+            <p>
+                Diana's Hair & Beauty Salon (C) 2020 | Privacy Policy | Website Template Designed by TemplateMonster.com
+            </p>
+        </footer>
+        <a id="button"></a>
+        <script>
+  var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 1400) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});         
+</script>
+</body>
+</html>
