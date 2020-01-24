@@ -581,19 +581,25 @@ div.popularservice-content p {
 div.contact-container {
     display: flex;
     background-color: #f8f8f8;
+    flex-basis: 100%;
 }
 
 div.info {
     padding-left: 40px;
+    flex-basis: 50%;
 }
 
 div.getintouch {
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 
 div.info > h2 {
     color: #9a1356;
     font-size: 30px;
+}
+
+div.info > p {
+    margin-right: 15%;
 }
 
 div.info > p > a {
@@ -606,15 +612,41 @@ div.getintouch h2 {
 }
 
 textarea {
-    width: 483px;
-    height: 247px;
+    width: 612px;
+    height: 340px;
     margin-top: 20px;
+    padding-left: 5px;
+}
+
+[placeholder] {
+    font-size: 17px;
+    font-family: sans-serif;
 }
 
 input[type="text"], input[type="tel"], input[type="email"] {
-    width: 151px;
+    width: 190px;
     height: 43px;
     margin-right: 8px;
+    padding-left: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #9A1356;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 10px;
+    transition: 0.6s;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    color: #9A1356;
+    background-color: white;
+    border: 1px solid #9A1356;
 }
 
   /* Adaptive media-requests */
