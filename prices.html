@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Diana's Hair & Beauty Salon is located in Doncaster, South Yorkshire. The salon provides numerous hair services followed by latest trends such as fringe design, partial highlight, full highlight, double process, ombre and more including treatments & rituals. They also offer luxurious wedding hair services by using premium quality hair care products.">
+    <meta name="description" content="Diana&#039;s Hair &amp; Beauty Salon is located in Doncaster, South Yorkshire. The salon provides numerous hair services followed by latest trends such as fringe design, partial highlight, full highlight, double process, ombre and more including treatments &amp; rituals. They also offer luxurious wedding hair services by using premium quality hair care products.">
     <meta name="keywords" content="Hairdressing, Colouring And Styling, Hair Extensions, Blow Drys, Cut And Colour Offer For New Clients, Mens Hair Cuts, Beards, Wet Shaves, Men's Styling Products, Men's Haircut, Beard Trimming, Haircuts, Professional And Kind Hair Stylists, Hair, Dressers, Hair Services, Beauty Therapist, Wedding Hair, Wedding Makeup, Cuts, Styling, Colouring, Hair Salon, Unisex, Cut And Finish, Cut And Blow, Cuts, Styling, Beauty Salon, Hairdresser, Hair And Beauty Salon, Hairdressers, Salon, Barbershop Doncaster, Cuts, Colours">
-    <title> Prices | Diana's Hair & Beauty Salon</title>
+    <title> Prices | Diana&#039;s Hair &amp; Beauty Salon</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
@@ -18,18 +18,19 @@
     <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
     <header>
-        <div class="logo"><img src="img/logo.png" alt="Website Logo" title="Logo"></div>
+        <div class="logo"><img src="img/logo.svg" alt="Website Logo" width="350" height="130"></div>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="staff.html">Staff</a></li>
-                <li><a class="nav-current" href="prices.html">Prices</a></li>
-                <li><a href="contact-us.html">Contacts</a></li>
+                <li><a href="index.html" title="Main page">Home</a></li>
+                <li><a href="services.html" title="Services">Services</a></li>
+                <li><a href="staff.html" title="Our staff">Staff</a></li>
+                <li><a class="nav-current" href="prices.html" title="Our prices">Prices</a></li>
+                <li><a href="contact-us.html" title="Contact us">Contacts</a></li>
             </ul>
+        </nav>
             <div class="mobile-wrap">
                 <div class="nav-wrap">
-                  <a href="index.html" class="active">Логотип</a>
+                    <a href="index.html" class="active"><img src="img/logo.svg" alt="Website Logo" width="75" height="40"></a>
                   <div id="navLinks">
                     <a href="index.html">Home</a>
                     <a href="services.html">Services</a>
@@ -41,105 +42,91 @@
                     <i class="fa fa-bars"></i>
                   </a>
                 </div>
-                <script>
-                function barFunction() {
-                    var x = document.getElementById("navLinks");
-                    if (x.style.display === "block") {
-                    x.style.display = "none";
-                    } else {
-                    x.style.display = "block";
-                    }
-                  }
+                </div>
+                <script src="js/adapt-menu.js">
                 </script>
-        </nav>
     </header>
     <main>
         <div class="prices-container">
             <h2>Price List</h2>
             <div class="pricelist-container">
                 <div class="price-block">
-                    <p>Viverra nulla nunc, eu ultrices libero eget. Phasellus accumsan justo vitae feugiat placerat. Praesent vel ultrices velit. Suspendisse risus justo, lacini vitae eleifend sed, cursus sit amet massastibulum nec
+                    <p>For every &pound;100 you spend we will give you a &pound;10 discount on any treatment.
                     </p>
                     <ul class="pricelist">
-                        <li><div class="price"><a href="#">Lorem ipsum dolor cons</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Adipiscing elitn moll</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Omet ultricies erate</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Retrumra nulla vellot</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Modales felis ui</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Pharetra luctus diam</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Rros convall</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Eehicula egestas venenat</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Uctor non pellentesque vel</a><span>£30</span></div></li>
+                        <li><div class="price"><a href="#" title="Hair treatment for women">Hair Treatments</a><span>&pound;50</span></div></li>
+                        <li><div class="price"><a href="#" title="Massage service">Massage</a><span>&pound;45</span></div></li>
+                        <li><div class="price"><a href="#" title="Skin Therapy for everyone">Skin Therapy</a><span>&pound;35</span></div></li>
+                        <li><div class="price"><a href="#" title="Spa Treatments for men and women">Spa Treatments</a><span>&pound;60</span></div></li>
+                        <li><div class="price"><a href="#" title="Nail Treatments for women">Nail Treatments</a><span>&pound;33</span></div></li>
+                        <li><div class="price"><a href="#" title="Neck and shoulder massage">Neck massage</a><span>&pound;20</span></div></li>
+                        <li><div class="price"><a href="#" title="Makeup service">Make&hyphen;up</a><span>&pound;20</span></div></li>
+                        <li><div class="price"><a href="#" title="Stone treatments">Stone Therapy</a><span>&pound;30</span></div></li>
+                        <li><div class="price"><a href="#" title="Face &amp; Skin Therapies">Face Therapy</a><span>&pound;35</span></div></li>
                     </ul>
                 </div>
                 <div class="price-block">
-                    <p>Maecenas est quam, suscipit ac nunc at, nulla. Etiam non rutrum lectus, a viverra elit. Nulla quis arcu sed lectus ultricies tincidunt quis dictum tellus. Nic nunc enim, condimentum eget blandit egecondim.
+                    <p>Vouchers are available from the Salon or can be purchased over the phone &amp; posted to you.
                     </p>
                     <ul class="pricelist">
-                        <li><div class="price"><a href="#">Klorem ipsum olor con</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Nolidipiscing eltn oll</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Molomet iceratemil</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Kolittrumra la vellot</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Dasodales felis ty</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Jharetra uctus riam</a><span>£30</span></div></li>
-                        <li><div class="price"><a href="#">Vert convallol</a><span>£30</span></div></li>
+                        <li><div class="price"><a href="#" title="Refreshments for hair">Refreshments</a><span>&pound;35</span></div></li>
+                        <li><div class="price"><a href="#" title="Wedding Hairdressing">Wedding Hair</a><span>&pound;50</span></div></li>
+                        <li><div class="price"><a href="#" title="Hair cut for men">Hair cut</a><span>&pound;15</span></div></li>
+                        <li><div class="price"><a href="#" title="Shampoo &amp; hair cut for women">Shampoo &amp; hair cut</a><span>&pound;18</span></div></li>
+                        <li><div class="price"><a href="#" title="Women&#039;s manicure">Gel manicure</a><span>&pound;33</span></div></li>
+                        <li><div class="price"><a href="#" title="Pedicure for men &amp; women">Pedicure</a><span>&pound;38</span></div></li>
                     </ul>
                 </div>
                 <div class="price-block">
-                    <p>Aliquam nibh ante, egestas id dictum a, commodo luctus libero. Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit etnsectetur adipiscing elit.
-                    </p>
-
-                    <p>Nullam consectetur orci sed nullaty facilisis consequat. Curabitur lore sit amet nulla ullamcorperm. In vitae varius augueeu consectetur ligula. Etiam dui eros, laoreet sit amet est vel, commodo venenatis eros. Fusce adipiscing quam id risus sagittis, non consequat lacus interdum. Proin ut tincidunt nulla, eu sodales arcu.
-                    </p>
+                    <ul class="notes">   
+                    <li>Consultations &ndash; complementary consultations are available for all services.</li>
+                    <li>Gift Vouchers &ndash; please ask at reception for more details.</li>
+                    <li>Corporate Discount &ndash; rates are available on application.</li>
+                    <li>Cancellations &ndash; please advise 48 hours before any cancellation</li>
+                    <li>All prices inclusive of VAT and use of products and refreshments.</li>
+                    <li>Not all services available at all times.</li>
+                    <li>7 day guarantee on all salon services. Prices are subject to change.</li>
+                    </ul>
                 </div>
             </div>
             <h2>Most Popular Services</h2>
-            <div class="popular-service">
-                <div class="popularservice-block">
-                    <div class="popularservice-image"></div>
-                <div class="popularservice-content">
-                    <h3>Nulla Quismibh</h3>
-                    <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis. Donec non sapien a erat porttitor aliquet. Maecenas est quam, suscipit ac nunc</p>
+            <div class="popularservice-container">
+                <div class="popularservice popular1">
+                    <h3>Skin Therapy</h3>
+                    <p>Our team offer top&hyphen;quality treatment and use only the best quality products including the No1 brand of facial line softening treatments and dermal fillers.</p>
                 </div>
+                <div class="popularservice popular2">
+                    <h3>Massage</h3>
+                    <p>Using manual hands-on movements and manipulation of the soft tissues and muscles in the body, massage therapy works to promote healing.</p>
                 </div>
-                <div class="popularservice-block">
-                <div class="popularservice-image"></div>
-                <div class="popularservice-content">
-                    <h3>Nulla Quismibh</h3>
-                    <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis. Donec non sapien a erat porttitor aliquet. Maecenas est quam, suscipit ac nunc</p>
-                </div>
-                </div>
-                <div class="popularservice-block">
-                <div class="popularservice-image"></div>
-                <div class="popularservice-content">
-                    <h3>Nulla Quismibh</h3>
-                    <p>Vestibulum volutpat turpis ut massa commodo, quis aliquam massa facilisis. Donec non sapien a erat porttitor aliquet. Maecenas est quam, suscipit ac nunc</p>
-                </div>
+                <div class="popularservice popular3">
+                    <h3>Face Therapy</h3>
+                    <p>Non-invasive cosmetic &amp; beauty treatments for men &amp; women. Using only the very best products and brands in the industry.</p>
             </div>
-            </div>
+        </div>
         </div>
     </main>
         <footer>
             <div class="footer-menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="staff.html">Staff</a></li>
-                    <li><a class="footer-current" href="prices.html">Prices</a></li>
-                    <li><a href="contact-us.html">Contacts</a></li>
+                    <li><a href="index.html" title="Main page">Home</a></li>
+                    <li><a href="services.html" title="Services">Services</a></li>
+                    <li><a href="staff.html" title="Our staff">Staff</a></li>
+                    <li><a class="footer-current" href="prices.html" title="Our prices">Prices</a></li>
+                    <li><a href="contact-us.html" title="Contact us">Contacts</a></li>
                 </ul>
             </div>
             <div class="socialmedias">
-                <div class="fb-page" data-href="https://www.facebook.com/Dianas-HairBeauty-Salon-352274815485394/" data-tabs="" data-width="500px" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Dianas-HairBeauty-Salon-352274815485394/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Dianas-HairBeauty-Salon-352274815485394/">Diana&#039;s Hair&amp;Beauty Salon</a></blockquote></div>
             <p>
-                Diana's Hair & Beauty Salon (C) 2020 | Privacy Policy | Website Template Designed by TemplateMonster.com
+                Diana&#039;s Hair &amp; Beauty Salon &copy; 2020 | Privacy Policy
             </p>
+            </div>
         </footer>
         <a id="button"></a>
         <script>
   var btn = $('#button');
 $(window).scroll(function() {
-  if ($(window).scrollTop() > 800) {
+  if ($(window).scrollTop() > 1500) {
     btn.addClass('show');
   } else {
     btn.removeClass('show');
